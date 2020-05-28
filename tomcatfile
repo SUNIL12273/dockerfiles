@@ -1,0 +1,8 @@
+FROM tomcat
+MAINTAINER sunil
+USER root
+RUN apt-get update
+ENTRYPOINT ["catalina.sh","run"]
+
+EXPOSE 8080
+

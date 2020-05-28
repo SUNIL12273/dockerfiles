@@ -1,0 +1,7 @@
+FROM ubuntu
+
+MAINTAINER sunil
+
+VOLUME /volumefolder
+RUN apt-get update
+
